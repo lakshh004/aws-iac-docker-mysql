@@ -198,6 +198,19 @@ More than just deploying a MySQL container, this project strengthened my underst
 It reflects a core DevOps mindset:
 automate everything, avoid manual steps, and build systems that can be recreated reliably at any time.
 
+This Project Demonstrated:
+- Infrastructure as Code (IaC) principles
+- AWS networking fundamentals
+- Multi-AZ subnet design
+- Automated instance bootstrapping
+- Containerized service deployment
+- CLI-driven infrastructure provisioning
+- Reproducible cloud environments
+
+
+
+
+
 
 
 
