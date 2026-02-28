@@ -145,16 +145,31 @@ docker ps
 * Docker engine operational
 
 ## Project Screenshots
-*(Insert CloudFormation CREATE_COMPLETE screenshot here)*<img width="905" height="535" alt="Create Complete" src="https://github.com/user-attachments/assets/b5cce2fe-1801-42d1-a2d7-34cd96acca31" />
+<img width="905" height="535" alt="Create Complete" src="https://github.com/user-attachments/assets/b5cce2fe-1801-42d1-a2d7-34cd96acca31" />
+<p align="center">
+  <u>CloudFormation "CREATE COMPLETE" screenshot.</u>
+</p>
 
 
-*(Insert EC2 Running instance screenshot here)* <img width="1197" height="595" alt="ec-2 running" src="https://github.com/user-attachments/assets/a8328905-62f3-43f7-95ab-397fc3bf277c" />
+ <img width="1197" height="595" alt="ec-2 running" src="https://github.com/user-attachments/assets/a8328905-62f3-43f7-95ab-397fc3bf277c" />
+<p align="center">
+  <u>EC2 Running instance screenshot.</u>
+</p>
 
-*(Insert docker ps output screenshot here)* <img width="1105" height="51" alt="docker ps" src="https://github.com/user-attachments/assets/36a0ad6e-9004-4fe3-8941-573cf6480471" />
+<img width="1105" height="51" alt="docker ps" src="https://github.com/user-attachments/assets/36a0ad6e-9004-4fe3-8941-573cf6480471" />
+<p align="center">
+  <u>docker ps output screenshot.</u>
+</p>
 
-*(Insert Resources tab screenshot here)*<img width="1074" height="588" alt="resources" src="https://github.com/user-attachments/assets/f03f1cdf-68e7-470f-ae24-299c1998c43c" />
+*<img width="1074" height="588" alt="resources" src="https://github.com/user-attachments/assets/f03f1cdf-68e7-470f-ae24-299c1998c43c" />
+<p align="center">
+  <u>Resources tab screenshot.</u>
+</p>
 
-*(Insert UserData configuration screenshot here)*<img width="1457" height="573" alt="user data" src="https://github.com/user-attachments/assets/da6f08cc-8b31-4fef-918d-f68158657dff" />
+<img width="1457" height="573" alt="user data" src="https://github.com/user-attachments/assets/da6f08cc-8b31-4fef-918d-f68158657dff" />
+<p align="center">
+  <u>UserData configuration screenshot.</u>
+</p>
 
 
 ## What This Project Demonstrates
@@ -165,6 +180,7 @@ docker ps
 * Containerized service deployment
 * CLI-driven infrastructure provisioning
 * Reproducible cloud environments
+
 
 
 
