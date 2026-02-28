@@ -40,7 +40,9 @@ aws-iac-docker-mysql/
 ## 🏗 Architecture Diagram
 
 <img width="1015" height="469" alt="architecture " src="https://github.com/user-attachments/assets/90a98732-841c-4f87-b618-e6b690d6c54c" />
-<p style="text-align: center;"><u>Architecture Diagram</u></p>
+<p align="center">
+  <u>Architecture Diagram</u>
+</p>
 
 
 
@@ -157,6 +159,7 @@ docker ps
 * Containerized service deployment
 * CLI-driven infrastructure provisioning
 * Reproducible cloud environments
+
 
 
 
