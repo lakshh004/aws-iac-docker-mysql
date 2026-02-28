@@ -34,7 +34,8 @@ aws-iac-docker-mysql/
 │
 ├── infrastructure.yaml   # CloudFormation template (entire infrastructure)
 ├── .gitignore            # Prevents private key upload
-└── README.md             # Project documentation
+└── README.md             # Project documentation 
+```
 
 ## 🏗 Architecture Diagram
 
@@ -82,7 +83,7 @@ amazon-linux-extras install docker -y
 systemctl start docker
 systemctl enable docker
 usermod -aG docker ec2-user
-
+```
 docker run -d \
   --name mysql-container \
   -e MYSQL_ROOT_PASSWORD=StrongPass123 \
@@ -145,3 +146,13 @@ docker ps
 *(Insert docker ps output screenshot here)*
 *(Insert Resources tab screenshot here)*
 *(Insert UserData configuration screenshot here)*
+
+## What This Project Demonstrates
+* Infrastructure as Code (IaC) principles
+* AWS networking fundamentals
+* Multi-AZ subnet design
+* Automated instance bootstrapping
+* Containerized service deployment
+* CLI-driven infrastructure provisioning
+* Reproducible cloud environments
+
