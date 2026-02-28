@@ -83,13 +83,13 @@ amazon-linux-extras install docker -y
 systemctl start docker
 systemctl enable docker
 usermod -aG docker ec2-user
-```
+
 docker run -d \
   --name mysql-container \
   -e MYSQL_ROOT_PASSWORD=StrongPass123 \
   -p 3306:3306 \
   mysql:8
-
+```
 **When the instance boots:**
 
 * Docker installs automatically.
@@ -114,27 +114,27 @@ docker run -d \
 ```bash
 aws cloudformation validate-template \
   --template-body file://infrastructure.yaml
-
+```
 ### 2. Create Stack
 ```bash
 aws cloudformation create-stack \
   --stack-name iac-stack \
   --template-body file://infrastructure.yaml \
   --parameters ParameterKey=KeyPairName,ParameterValue=<your-key-name>
-
+```
 ### 3. Monitor Stack Status
 ```bash
 aws cloudformation describe-stacks \
   --stack-name iac-stack \
   --query "Stacks[0].StackStatus"
-
+```
 **Wait until:** `CREATE_COMPLETE`
 
 ### 4. Verify Docker and MySQL
 SSH into the EC2 instance and run:
 ```bash
 docker ps
-
+```
 **This confirms:**
 * MySQL container running
 * Port mapping active
@@ -155,4 +155,5 @@ docker ps
 * Containerized service deployment
 * CLI-driven infrastructure provisioning
 * Reproducible cloud environments
+
 
