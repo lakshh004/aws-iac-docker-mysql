@@ -156,22 +156,25 @@ docker ps
 <p align="center">
   <u>EC2 Running instance screenshot.</u>
 </p>
+<br> </br>
 
 <img width="1105" height="51" alt="docker ps" src="https://github.com/user-attachments/assets/36a0ad6e-9004-4fe3-8941-573cf6480471" />
 <p align="center">
   <u>docker ps output screenshot.</u>
 </p>
+<br> </br>
 
 *<img width="1074" height="588" alt="resources" src="https://github.com/user-attachments/assets/f03f1cdf-68e7-470f-ae24-299c1998c43c" />
 <p align="center">
   <u>Resources tab screenshot.</u>
 </p>
+<br> </br>
 
 <img width="1457" height="573" alt="user data" src="https://github.com/user-attachments/assets/da6f08cc-8b31-4fef-918d-f68158657dff" />
 <p align="center">
   <u>UserData configuration screenshot.</u>
 </p>
-
+<br> </br>
 
 ## What This Project Demonstrates
 * Infrastructure as Code (IaC) principles
@@ -194,6 +197,7 @@ More than just deploying a MySQL container, this project strengthened my underst
 
 It reflects a core DevOps mindset:
 automate everything, avoid manual steps, and build systems that can be recreated reliably at any time.
+
 
 
 
