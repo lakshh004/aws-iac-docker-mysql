@@ -145,11 +145,17 @@ docker ps
 * Docker engine operational
 
 ## Project Screenshots
-*(Insert CloudFormation CREATE_COMPLETE screenshot here)*
-*(Insert EC2 Running instance screenshot here)*
-*(Insert docker ps output screenshot here)*
-*(Insert Resources tab screenshot here)*
-*(Insert UserData configuration screenshot here)*
+*(Insert CloudFormation CREATE_COMPLETE screenshot here)*<img width="905" height="535" alt="Create Complete" src="https://github.com/user-attachments/assets/b5cce2fe-1801-42d1-a2d7-34cd96acca31" />
+
+
+*(Insert EC2 Running instance screenshot here)* <img width="1197" height="595" alt="ec-2 running" src="https://github.com/user-attachments/assets/a8328905-62f3-43f7-95ab-397fc3bf277c" />
+
+*(Insert docker ps output screenshot here)* <img width="1105" height="51" alt="docker ps" src="https://github.com/user-attachments/assets/36a0ad6e-9004-4fe3-8941-573cf6480471" />
+
+*(Insert Resources tab screenshot here)*<img width="1074" height="588" alt="resources" src="https://github.com/user-attachments/assets/f03f1cdf-68e7-470f-ae24-299c1998c43c" />
+
+*(Insert UserData configuration screenshot here)*<img width="1457" height="573" alt="user data" src="https://github.com/user-attachments/assets/da6f08cc-8b31-4fef-918d-f68158657dff" />
+
 
 ## What This Project Demonstrates
 * Infrastructure as Code (IaC) principles
@@ -159,6 +165,7 @@ docker ps
 * Containerized service deployment
 * CLI-driven infrastructure provisioning
 * Reproducible cloud environments
+
 
 
 
